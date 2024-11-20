@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/item_review_rating_5_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:paddingTop="10dp"
+        android:background="@drawable/background_details_for_items">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Reviews"
+            android:textSize="20dp"
+            android:textColor="#424040"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/item_review_rating_5_text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="999 Reviews"
+            android:layout_alignParentRight="true"
+            android:textColor="#787878"
+            android:textSize="17dp"
+            android:layout_centerVertical="true"
+            android:textStyle="normal"/>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/item_review_rating_5_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_review_rating_5_layout_1"
+        tools:listitem="@layout/item_review_rating_5_1"
+        />
+
+</RelativeLayout>

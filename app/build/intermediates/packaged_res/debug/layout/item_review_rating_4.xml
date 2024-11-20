@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:id="@+id/item_review_rating_4_layout_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+            android:id="@+id/item_review_rating_4_layout_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/item_review_rating_4_text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textColor="#717171"
+                android:textStyle="bold"
+                android:textSize="18dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/star_grey"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:layout_toEndOf="@+id/item_review_rating_4_text_1"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/item_review_rating_4_text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="99999"
+            android:textSize="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:textStyle="normal"
+            android:textColor="#717171"/>
+
+        <ProgressBar
+            android:id="@+id/item_review_rating_4_FiveStarProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/item_review_rating_4_layout_1"
+            android:layout_toStartOf="@+id/item_review_rating_4_text_2"
+            android:minHeight="20dp"
+            android:layout_centerVertical="true"
+            android:minWidth="250dp"
+            android:max="99999"
+            android:indeterminate="false"
+            android:progress="70000"
+            android:scaleY="0.55"
+            android:layout_marginRight="10dp"
+            app:trackCornerRadius="100dp"
+            android:layout_marginLeft="5dp"
+            android:progressDrawable="@drawable/background_progress_bar"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_review_rating_4_layout_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_review_rating_4_layout_2"
+        android:layout_marginTop="10dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/item_review_rating_4_layout_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/item_review_rating_4_text_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:textColor="#717171"
+                android:textStyle="bold"
+                android:textSize="18dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/star_grey"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:layout_toEndOf="@+id/item_review_rating_4_text_4"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/item_review_rating_4_text_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="99999"
+            android:textSize="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:textStyle="normal"
+            android:textColor="#717171"/>
+
+        <ProgressBar
+            android:id="@+id/item_review_rating_4_FourStarProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/item_review_rating_4_layout_4"
+            android:layout_toStartOf="@+id/item_review_rating_4_text_3"
+            android:minHeight="20dp"
+            android:layout_centerVertical="true"
+            android:minWidth="250dp"
+            android:max="99999"
+            android:indeterminate="false"
+            android:progress="20000"
+            android:scaleY="0.55"
+            android:layout_marginRight="10dp"
+            app:trackCornerRadius="100dp"
+            android:layout_marginLeft="5dp"
+            android:progressDrawable="@drawable/background_progress_bar"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_review_rating_4_layout_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_review_rating_4_layout_3"
+        android:layout_marginTop="10dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/item_review_rating_4_layout_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/item_review_rating_4_text_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:textColor="#717171"
+                android:textStyle="bold"
+                android:textSize="18dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/star_grey"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:layout_toEndOf="@+id/item_review_rating_4_text_5"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/item_review_rating_4_text_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="99999"
+            android:textSize="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:textStyle="normal"
+            android:textColor="#717171"/>
+
+        <ProgressBar
+            android:id="@+id/item_review_rating_4_ThreeStarProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/item_review_rating_4_layout_6"
+            android:layout_toStartOf="@+id/item_review_rating_4_text_6"
+            android:minHeight="20dp"
+            android:layout_centerVertical="true"
+            android:minWidth="250dp"
+            android:max="99999"
+            android:indeterminate="false"
+            android:progress="50000"
+            android:scaleY="0.55"
+            android:layout_marginRight="10dp"
+            app:trackCornerRadius="100dp"
+            android:layout_marginLeft="5dp"
+            android:progressDrawable="@drawable/background_progress_bar"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_review_rating_4_layout_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_review_rating_4_layout_5"
+        android:layout_marginTop="10dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/item_review_rating_4_layout_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/item_review_rating_4_text_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textColor="#717171"
+                android:textStyle="bold"
+                android:textSize="18dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/star_grey"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:layout_toEndOf="@+id/item_review_rating_4_text_7"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/item_review_rating_4_text_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="99999"
+            android:textSize="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:textStyle="normal"
+            android:textColor="#717171"/>
+
+        <ProgressBar
+            android:id="@+id/item_review_rating_4_TwoStarProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/item_review_rating_4_layout_8"
+            android:layout_toStartOf="@+id/item_review_rating_4_text_8"
+            android:minHeight="20dp"
+            android:layout_centerVertical="true"
+            android:minWidth="250dp"
+            android:max="99999"
+            android:indeterminate="false"
+            android:progress="40000"
+            android:scaleY="0.55"
+            android:progressTint="#FFC107"
+            android:layout_marginRight="10dp"
+            app:trackCornerRadius="100dp"
+            android:layout_marginLeft="5dp"
+            android:progressDrawable="@drawable/background_progress_bar"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_review_rating_4_layout_9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_review_rating_4_layout_7"
+        android:layout_marginTop="10dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/item_review_rating_4_layout_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/item_review_rating_4_text_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textColor="#717171"
+                android:textStyle="bold"
+                android:textSize="18dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/star_grey"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:layout_toEndOf="@+id/item_review_rating_4_text_10"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/item_review_rating_4_text_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="99999"
+            android:textSize="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:textStyle="normal"
+            android:textColor="#717171"/>
+
+        <ProgressBar
+            android:id="@+id/item_review_rating_4_OneStarProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/item_review_rating_4_layout_10"
+            android:layout_toStartOf="@+id/item_review_rating_4_text_9"
+            android:minHeight="20dp"
+            android:layout_centerVertical="true"
+            android:minWidth="250dp"
+            android:max="99999"
+            android:indeterminate="false"
+            android:progress="10000"
+            android:scaleY="0.55"
+            android:progressTint="#FF0707"
+            android:layout_marginRight="10dp"
+            app:trackCornerRadius="100dp"
+            android:layout_marginLeft="5dp"
+            android:progressDrawable="@drawable/background_progress_bar"
+            />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

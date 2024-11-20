@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgound_google_btn"
+    android:layout_marginBottom="4dp">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/item_myorder_layout_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/item_myorder_text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order ID: "
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:textColor="#535353"
+                android:layout_alignParentTop="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1290181529"
+                android:layout_toEndOf="@+id/item_myorder_text_1"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:textColor="#535353"
+                android:textStyle="bold"
+                android:textSize="23dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_myorder_layout_2"
+            android:layout_below="@+id/item_myorder_layout_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/item_myorder_text_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date: "
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:textColor="#535353"
+                android:layout_alignParentTop="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2023-11-11"
+                android:layout_toEndOf="@+id/item_myorder_text_3"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:textColor="#535353"
+                android:textStyle="bold"
+                android:textSize="23dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_myorder_layout_3"
+            android:layout_below="@+id/item_myorder_layout_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/item_myorder_text_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status: "
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:textColor="#535353"
+                android:layout_alignParentTop="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PAID"
+                android:layout_toEndOf="@+id/item_myorder_text_4"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:textColor="#4E8F02"
+                android:textStyle="bold"
+                android:textSize="23dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_myorder_layout_4"
+            android:layout_below="@+id/item_myorder_layout_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/item_myorder_text_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No of Items: "
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:textColor="#535353"
+                android:layout_alignParentTop="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:layout_toEndOf="@+id/item_myorder_text_5"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:textColor="#535353"
+                android:textStyle="bold"
+                android:textSize="23dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_myorder_layout_5"
+            android:layout_below="@+id/item_myorder_layout_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/item_myorder_text_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order Value: "
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:textColor="#535353"
+                android:layout_alignParentTop="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="362"
+                android:layout_toEndOf="@+id/item_myorder_text_6"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:textColor="#535353"
+                android:textStyle="bold"
+                android:textSize="23dp"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

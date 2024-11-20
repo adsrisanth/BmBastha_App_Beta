@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_version.show_all_items_activity">
+
+    <RelativeLayout
+        android:id="@+id/activity_show_all_items_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/activity_show_all_items_img_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_arrow"
+            android:layout_centerVertical="true"
+            android:scaleY="1.5"
+            android:scaleX="1.5"/>
+
+        <RelativeLayout
+            android:id="@+id/activity_show_all_items_search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toEndOf="@+id/activity_show_all_items_img_4"
+            android:layout_toStartOf="@+id/activity_show_all_items_layout_3"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/backgound_google_btn">
+
+            <ImageView
+                android:id="@+id/activity_show_all_items_sea_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/search" />
+
+            <TextView
+                android:id="@+id/activity_show_all_items_text_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_toEndOf="@+id/activity_show_all_items_sea_1"
+                android:text="Search for Products,Brands..."
+                android:textColor="#9A9A9A"
+                android:textSize="13dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/mic"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/activity_show_all_items_layout_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/activity_show_all_items_img_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cart"
+                android:scaleX="1.3"
+                android:scaleY="1.3"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/activity_show_all_items_layout_2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/activity_show_all_items_layout_1"
+        android:background="@color/white"
+        android:elevation="0dp"
+        >
+
+        <TextView
+            android:id="@+id/activity_show_all_items_text_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="120 Items"
+            android:visibility="invisible"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/grey_font"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/activity_show_all_items_filter_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="7dp">
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/activity_show_all_items_img_1"
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:src="@drawable/filter_new"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/activity_show_all_items_img_1"
+                    android:layout_centerVertical="true"
+                    android:text="Filter"
+                    android:textSize="17dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/black"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_show_all_items_layout_2">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_show_all_items_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/item_activity_show_all_item_part_2"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/activity_show_all_items_progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:background="#68DAD3D3">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

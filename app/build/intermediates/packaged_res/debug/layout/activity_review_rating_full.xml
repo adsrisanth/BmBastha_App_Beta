@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".user_version.review_rating_full_activity">
+
+    <RelativeLayout
+        android:id="@+id/activity_review_rating_full_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        >
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_review_rating_full_layout_1"
+        >
+
+        <RelativeLayout
+            android:id="@+id/activity_review_rating_full_layout_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/activity_review_rating_full_layout_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true">
+
+                <include
+                    layout="@layout/item_review_rating_2"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/activity_review_rating_full_layout_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/activity_review_rating_full_layout_3"
+                android:background="@drawable/background_details_for_items"
+                >
+
+                <include
+                    layout="@layout/item_review_rating_4"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/activity_review_rating_full_layout_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/activity_review_rating_full_layout_4">
+
+<!--                <include-->
+<!--                    layout="@layout/item_review_rating_3"/>-->
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/activity_review_rating_full_layout_5"
+                >
+
+                <include
+                    layout="@layout/item_review_rating_5"/>
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

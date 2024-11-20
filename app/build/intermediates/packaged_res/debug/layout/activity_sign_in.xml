@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".account.Sign_in"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        >
+
+        <TextView
+            android:id="@+id/activity_sign_in_append_text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/activity_sign_in_append_text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_sign_in_append_text_1"
+            android:text="Welcome back! Please enter your details."
+            android:textSize="16sp"
+            android:textColor="#3C3B3B"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"/>
+
+        <RelativeLayout
+            android:id="@+id/activity_sign_in_append_relative_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_sign_in_append_text_2"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            >
+
+            <TextView
+                android:id="@+id/activity_sign_in_append_text_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="#222121"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/activity_sign_in_append_text_3"
+                app:cardCornerRadius="10dp"
+                >
+
+                <EditText
+                    android:id="@+id/activity_sign_in_email"
+                    android:inputType="textEmailAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Enter your mail"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:textStyle="normal"
+                    android:textSize="17dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/activity_sign_in_append_relative_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_sign_in_append_relative_1"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            >
+
+            <TextView
+                android:id="@+id/activity_sign_in_append_text_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textColor="#222121"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/activity_sign_in_append_text_4"
+                app:cardCornerRadius="10dp"
+                >
+
+                <EditText
+                    android:id="@+id/activity_sign_in_password"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Enter your password"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:textStyle="normal"
+                    android:textSize="17dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/activity_sign_in_append_text_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forget password?"
+            android:layout_below="@+id/activity_sign_in_append_relative_2"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#272626"
+            android:layout_marginTop="18dp"
+            android:layout_alignParentRight="true"/>
+
+        <RelativeLayout
+            android:id="@+id/activity_sign_in_btn_signin"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/activity_sign_in_append_text_5"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/backgroung_login_btn"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign in"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/activity_sign_in_btn_google_signin"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/activity_sign_in_btn_signin"
+            android:background="@drawable/backgound_google_btn">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                >
+
+                <ImageView
+                    android:id="@+id/activity_sign_in_img_google"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/google_img"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/activity_sign_in_img_google"
+                    android:text="Sign in with Google"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp"
+                    android:textColor="#756F6F"
+                    android:textStyle="bold"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_sign_in_btn_google_signin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/activity_sign_in_append_text_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have an account?"
+                android:textSize="12sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/activity_sign_in_append_text_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Sign up for free!"
+                android:textSize="12sp"
+                android:textColor="#69E6A4"
+                android:textStyle="bold"
+
+                android:layout_toEndOf="@+id/activity_sign_in_append_text_6"/>
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/activity_sign_in_progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#349E9E9E"
+        android:visibility="invisible"
+        >
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

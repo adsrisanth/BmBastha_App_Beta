@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp">
+
+
+
+    <RelativeLayout
+        android:id="@+id/item_add_new_address_1_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:elevation="10dp">
+
+        <TextView
+            android:id="@+id/item_add_new_address_1_text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Full Name(First and Last name)"
+            android:textColor="#8F8D8D"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginLeft="3dp"
+            android:elevation="10dp"/>
+
+        <EditText
+            android:id="@+id/item_add_new_address_1_edit_full_name"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/item_add_new_address_1_text_1"
+            android:text=""
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#3C3232"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/background_add_address_btn"
+            android:gravity="center_vertical"
+            android:paddingLeft="13dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_add_new_address_1_layout_2"
+        android:layout_below="@+id/item_add_new_address_1_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/item_add_new_address_1_text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Mobile Number"
+            android:textColor="#8F8D8D"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginLeft="3dp"
+            android:elevation="10dp"/>
+
+        <EditText
+            android:id="@+id/item_add_new_address_1_edit_mobile_number"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/item_add_new_address_1_text_2"
+            android:text=""
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:inputType="number"
+            android:textColor="#3C3232"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/background_add_address_btn"
+            android:gravity="center_vertical"
+            android:paddingLeft="13dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_add_new_address_1_layout_9"
+        android:layout_below="@+id/item_add_new_address_1_layout_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/item_add_new_address_1_text_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Email"
+            android:textColor="#8F8D8D"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginLeft="3dp"
+            android:elevation="10dp"/>
+
+        <EditText
+            android:id="@+id/item_add_new_address_1_edit_email"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/item_add_new_address_1_text_9"
+            android:text=""
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:inputType="textEmailAddress"
+            android:textColor="#3C3232"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/background_add_address_btn"
+            android:gravity="center_vertical"
+            android:paddingLeft="13dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_add_new_address_1_layout_3"
+        android:layout_below="@+id/item_add_new_address_1_layout_9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/item_add_new_address_1_text_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Flat, House no.,"
+            android:textColor="#8F8D8D"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginLeft="3dp"
+            android:elevation="10dp"/>
+
+        <EditText
+            android:id="@+id/item_add_new_address_1_edit_no"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/item_add_new_address_1_text_3"
+            android:text=""
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#3C3232"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/background_add_address_btn"
+            android:gravity="center_vertical"
+            android:paddingLeft="13dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_add_new_address_1_layout_4"
+        android:layout_below="@+id/item_add_new_address_1_layout_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/item_add_new_address_1_text_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Area, Street, Sector, Village"
+            android:textColor="#8F8D8D"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:layout_marginLeft="3sp"
+            android:elevation="10dp"/>
+
+        <EditText
+            android:id="@+id/item_add_new_address_1_edit_area"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/item_add_new_address_1_text_4"
+            android:text=""
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#3C3232"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/background_add_address_btn"
+            android:gravity="center_vertical"
+            android:paddingLeft="13dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_add_new_address_1_layout_5"
+        android:layout_below="@+id/item_add_new_address_1_layout_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/item_add_new_address_1_text_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Landmark"
+            android:textColor="#8F8D8D"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_marginLeft="3dp"
+            android:elevation="10dp"/>
+
+        <EditText
+            android:id="@+id/item_add_new_address_1_edit_landMark"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/item_add_new_address_1_text_5"
+            android:text=""
+            android:hint="Ex: near Kl university"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:textColor="#3C3232"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/background_add_address_btn"
+            android:gravity="center_vertical"
+            android:paddingLeft="13dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_add_new_address_1_layout_6"
+        android:layout_below="@+id/item_add_new_address_1_layout_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/item_add_new_address_1_text_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Pincode"
+            android:textColor="#8F8D8D"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_marginLeft="3dp"
+            android:elevation="10dp"/>
+
+        <EditText
+            android:id="@+id/item_add_new_address_1_edit_pinCode"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/item_add_new_address_1_text_6"
+            android:text=""
+            android:hint="6 digits"
+            android:inputType="number"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#3C3232"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/background_add_address_btn"
+            android:gravity="center_vertical"
+            android:paddingLeft="13dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_add_new_address_1_layout_7"
+        android:layout_below="@+id/item_add_new_address_1_layout_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/item_add_new_address_1_text_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Town/City"
+            android:textColor="#8F8D8D"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:layout_marginLeft="3dp"
+            android:elevation="10dp"/>
+
+        <EditText
+            android:id="@+id/item_add_new_address_1_edit_town"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/item_add_new_address_1_text_7"
+            android:text=""
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#3C3232"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/background_add_address_btn"
+            android:gravity="center_vertical"
+            android:paddingLeft="13dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_add_new_address_1_layout_8"
+        android:layout_below="@+id/item_add_new_address_1_layout_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/item_add_new_address_1_text_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="State"
+            android:textColor="#8F8D8D"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_marginLeft="3dp"
+            android:elevation="10dp"/>
+
+        <EditText
+            android:id="@+id/item_add_new_address_1_edit_state"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/item_add_new_address_1_text_8"
+            android:text=""
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#3C3232"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/background_add_address_btn"
+            android:gravity="center_vertical"
+            android:paddingLeft="13dp"/>
+
+    </RelativeLayout>
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_add_new_address_1_layout_8"
+        android:layout_marginTop="15dp"
+        app:cardCornerRadius="10dp"
+        android:elevation="10dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/item_add_new_address_1_save_btn"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/app_color1"
+            android:clickable="false"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Add Address"
+                android:layout_centerInParent="true"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    
+
+
+
+
+
+</RelativeLayout>

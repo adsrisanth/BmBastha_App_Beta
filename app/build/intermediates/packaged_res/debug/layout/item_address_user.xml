@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item_address_user_item"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/backgound_google_btn"
+    android:layout_marginBottom="10dp"
+    android:elevation="10dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp">
+
+    <TextView
+        android:id="@+id/item_address_user_text_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text="Kulukuri Praneeth"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/item_address_user_text_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_address_user_text_1"
+        android:layout_alignParentLeft="true"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:layout_marginTop="8dp"
+        android:text="19-60, Swanthra Nagar, Madharawada, Andhra Pradesh, 5300048"/>
+
+    <TextView
+        android:id="@+id/item_address_user_text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_address_user_text_3"
+        android:text="Number: 8074674228"
+        android:textStyle="normal"
+        android:textSize="16sp"
+        android:layout_marginTop="6dp"/>
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/item_address_user_img_1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/edit_address"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:visibility="invisible"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/delect_address"
+        android:layout_toStartOf="@+id/item_address_user_img_1"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"/>
+
+
+</RelativeLayout>

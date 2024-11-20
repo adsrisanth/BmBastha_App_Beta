@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:background="@drawable/background_details_for_items">
+
+    <ImageView
+        android:id="@+id/item_myorder_2_image_view_1"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        android:src="@drawable/rice_append"/>
+
+    <ImageView
+        android:id="@+id/item_myorder_2_image_view_2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/arrow_right_black"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/item_myorder_2_image_view_1"
+        android:layout_toStartOf="@+id/item_myorder_2_image_view_2"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/item_myorder_2_text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancelled on Aug 17,2023"
+            android:textColor="#292929"
+            android:textStyle="normal"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_myorder_2_text_1"
+            android:textSize="16dp"
+            android:text="She sells sea shells on the se.. "
+            android:textStyle="normal"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

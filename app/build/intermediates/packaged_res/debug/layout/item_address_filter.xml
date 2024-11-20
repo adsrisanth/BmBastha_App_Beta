@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_details_for_items">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <RelativeLayout
+            android:id="@+id/item_address_filter_layout_1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/backgound_google_btn">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/item_address_filter_select"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_centerInParent="true"
+                android:backgroundTint="#727A76"
+                app:cardCornerRadius="14dp">
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/item_address_filter_layout_1"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/item_address_filter_text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Praneeth , 530048"
+                android:textStyle="bold"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:id="@+id/item_address_filter_text_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_address_filter_text_1"
+                android:text="Swanthra Nagar, Madhurawada"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

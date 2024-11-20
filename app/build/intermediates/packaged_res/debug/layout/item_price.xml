@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/item_prices_layout_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <CheckBox
+            android:id="@+id/item_prices_checkBox_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/item_prices_checkBox_1"
+            android:layout_centerVertical="true"
+            android:text="Rs.200 and Below"
+            android:textStyle="bold"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:textSize="17dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_prices_layout_2"
+        android:layout_below="@+id/item_prices_layout_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <CheckBox
+            android:id="@+id/item_prices_checkBox_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/item_prices_checkBox_2"
+            android:layout_centerVertical="true"
+            android:text="Rs.201 - Rs.500"
+            android:textStyle="bold"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:textSize="17dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_prices_layout_3"
+        android:layout_below="@+id/item_prices_layout_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <CheckBox
+            android:id="@+id/item_prices_checkBox_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/item_prices_checkBox_3"
+            android:layout_centerVertical="true"
+            android:text="Rs.501 - Rs.2000"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:textSize="17dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_prices_layout_4"
+        android:layout_below="@+id/item_prices_layout_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <CheckBox
+            android:id="@+id/item_prices_checkBox_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/item_prices_checkBox_4"
+            android:layout_centerVertical="true"
+            android:text="Rs.2001 and above"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:textSize="17dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_version.item_view_list">
+
+
+
+    <RelativeLayout
+        android:id="@+id/activity_item_view_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/app_color1"
+        >
+
+        <ImageView
+            android:id="@+id/activity_item_view_list_back_arrow"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/back_arrow_white"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"/>
+
+
+        <ImageView
+            android:id="@+id/activity_item_view_list_img_cart"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/cart"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"/>
+
+        <ImageView
+            android:id="@+id/activity_item_view_list_img_search"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/search"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toStartOf="@+id/activity_item_view_list_img_cart"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_item_view_layout_1"
+        android:layout_above="@+id/activity_item_view_layout_2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <RelativeLayout
+                android:id="@+id/activity_item_view_list_append_layout_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <com.denzcoskun.imageslider.ImageSlider
+                    android:id="@+id/activity_item_view_list_image_slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:iss_auto_cycle="false"
+                    app:iss_corner_radius="5"
+                    app:iss_delay="0"
+                    app:iss_error_image="@color/white"
+                    app:iss_period="2000"
+                    app:iss_placeholder="@color/white"
+                    android:background="@color/grey_font">
+
+                    <ImageView
+                        android:id="@+id/activity_item_view_list_wishList_img_btn"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/wishlist"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="20dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/baseline_share_24"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/activity_item_view_list_wishList_img_btn"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"/>
+
+                </com.denzcoskun.imageslider.ImageSlider>
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/activity_item_view_list_wishList_img_btn"-->
+<!--                    android:layout_width="100px"-->
+<!--                    android:layout_height="100px"-->
+<!--                    android:src="@drawable/wishlist"-->
+<!--                    android:layout_alignParentRight="true"-->
+<!--                    android:layout_marginRight="10dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    />-->
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/activity_item_view_list_append_layout_1"
+                android:layout_marginBottom="20dp">
+
+                <include layout="@layout/item_activity_item_view_list_about_products" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/activity_item_view_layout_2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:elevation="12dp"
+        android:background="@color/white"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_item_view_list_btn_add_to_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/white"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add to cart"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_gravity="center"
+                    android:textColor="#198F51"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:backgroundTint="#198F51"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Buy now"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_gravity="center"
+                    android:textColor="#E9FFFFFF"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/progress_Bar_activity_item_view_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3E9E9E9E"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

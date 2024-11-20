@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Address"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select a delivery location"
+            android:textSize="18sp"
+            android:textColor="@color/grey_font"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/bottom_order_page_address_show_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:padding="3dp"
+            tools:listitem="@layout/item_bottom_address"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

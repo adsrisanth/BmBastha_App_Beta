@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/item_details_profile_user_account_layout_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+            >
+
+        <TextView
+            android:id="@+id/item_details_profile_user_account_text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Basic Details"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#323030"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_details_profile_user_account_text_1"
+            android:layout_marginTop="3dp"
+            android:padding="30dp"
+            android:background="@drawable/backgound_google_btn">
+
+            <RelativeLayout
+                android:id="@+id/item_details_profile_user_account_layout_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/item_details_profile_user_account_text_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name"
+                        android:textColor="#3C3B3B"
+                        android:layout_centerVertical="true"
+                        android:textStyle="normal"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:textColor="#5ECE5F"
+                        android:text="Update"/>
+
+                </RelativeLayout>
+
+
+
+                <TextView
+                    android:id="@+id/item_details_profile_user_account_edit_text_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="5dp"
+                    android:hint="First Name"
+                    android:textSize="20dp"
+                    android:paddingLeft="1dp"
+                    android:gravity="bottom"
+                    android:paddingBottom="5dp"
+                    android:textStyle="bold"
+                    android:textColor="#2C2B2B"
+                    android:text="Praneeth"
+                    android:background="@drawable/background_details_for_items"
+                    android:layout_below="@+id/item_details_profile_user_account_text_2"
+                    />
+
+            </RelativeLayout>
+
+<!--            <RelativeLayout-->
+<!--                android:layout_marginTop="30dp"-->
+<!--                android:id="@+id/item_details_profile_user_account_layout_2"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/item_details_profile_user_account_layout_1"-->
+<!--                >-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/item_details_profile_user_account_text_3"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Last Name"-->
+<!--                    android:textColor="#3C3B3B"-->
+<!--                    android:textStyle="normal"-->
+<!--                    android:textSize="18sp"/>-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/item_details_profile_user_account_edit_text_2"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="35dp"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:hint="Last Name"-->
+<!--                    android:textSize="20dp"-->
+<!--                    android:paddingLeft="1dp"-->
+<!--                    android:gravity="bottom"-->
+<!--                    android:paddingBottom="5dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="#2C2B2B"-->
+<!--                    android:text="Kulukuri"-->
+<!--                    android:background="@drawable/background_details_for_items"-->
+<!--                    android:layout_below="@+id/item_details_profile_user_account_text_3"-->
+<!--                    />-->
+
+<!--            </RelativeLayout>-->
+
+<!--            <EditText-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="35dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:hint="Date of Birth"-->
+<!--                android:textSize="20dp"-->
+<!--                android:paddingLeft="1dp"-->
+<!--                android:gravity="bottom"-->
+<!--                android:paddingBottom="5dp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="#2C2B2B"-->
+<!--                android:background="@drawable/background_details_for_items"-->
+<!--                android:layout_below="@+id/item_details_profile_user_account_layout_2"-->
+<!--                android:inputType="date"-->
+<!--                />-->
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_details_profile_user_account_layout_7"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_below="@+id/item_details_profile_user_account_layout_5"
+        >
+
+        <TextView
+            android:id="@+id/item_details_profile_user_account_text_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Details"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#323030"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_details_profile_user_account_text_4"
+            android:layout_marginTop="3dp"
+            android:padding="30dp"
+            android:background="@drawable/backgound_google_btn">
+
+            <RelativeLayout
+                android:id="@+id/item_details_profile_user_account_layout_3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                >
+
+
+                <RelativeLayout
+                    android:id="@+id/item_details_profile_user_account_text_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mobile"
+                        android:textColor="#3C3B3B"
+                        android:layout_centerVertical="true"
+                        android:textStyle="normal"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:textColor="#5ECE5F"
+                        android:text="Update"/>
+
+                </RelativeLayout>
+
+
+
+                <!--                <TextView-->
+<!--                    android:id="@+id/item_details_profile_user_account_text_5"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Mobile Number"-->
+<!--                    android:textColor="#3C3B3B"-->
+<!--                    android:textStyle="normal"-->
+<!--                    android:textSize="18sp"/>-->
+
+                <EditText
+                    android:id="@+id/item_details_profile_user_account_edit_text_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="5dp"
+                    android:hint="First Name"
+                    android:textSize="20dp"
+                    android:paddingLeft="1dp"
+                    android:gravity="bottom"
+                    android:paddingBottom="5dp"
+                    android:textStyle="bold"
+                    android:textColor="#2C2B2B"
+                    android:text="7834789010"
+                    android:inputType="number"
+                    android:background="@drawable/background_details_for_items"
+                    android:layout_below="@+id/item_details_profile_user_account_text_5"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="0dp"
+                android:id="@+id/item_details_profile_user_account_layout_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_details_profile_user_account_layout_3"
+                >
+
+
+                <RelativeLayout
+                    android:id="@+id/item_details_profile_user_account_text_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Email Address"
+                        android:textColor="#3C3B3B"
+                        android:layout_centerVertical="true"
+                        android:textStyle="normal"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:textColor="#5ECE5F"
+                        android:text="Update"/>
+
+                </RelativeLayout>
+
+
+
+                <!--                <TextView-->
+<!--                    android:id="@+id/item_details_profile_user_account_text_6"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Email Address"-->
+<!--                    android:textColor="#3C3B3B"-->
+<!--                    android:textStyle="normal"-->
+<!--                    android:textSize="18sp"/>-->
+
+                <TextView
+                    android:id="@+id/item_details_profile_user_account_edit_text_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="5dp"
+                    android:hint="Last Name"
+                    android:textSize="20dp"
+                    android:paddingLeft="1dp"
+                    android:enabled="false"
+                    android:gravity="bottom"
+                    android:paddingBottom="5dp"
+                    android:textStyle="bold"
+                    android:textColor="#2C2B2B"
+                    android:inputType="textEmailAddress"
+                    android:text="praneethkulukuri@gmail.com"
+                    android:background="@drawable/background_details_for_items"
+                    android:layout_below="@+id/item_details_profile_user_account_text_6"
+                    />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_details_profile_user_account_logout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/background_logout_btn"
+        android:layout_below="@+id/item_details_profile_user_account_layout_7"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Logout"
+            android:textColor="#5ECE5F"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

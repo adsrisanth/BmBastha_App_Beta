@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        >
+
+        <ImageView
+            android:id="@+id/item_cart_img_1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_launcher_background"/>
+
+        <ImageView
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/delect"/>
+
+        <RelativeLayout
+            android:id="@+id/item_cart_append_layout_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_cart_img_1"
+            android:layout_marginTop="7dp">
+
+            <ImageView
+                android:id="@+id/item_cart_img_2"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/ic_launcher_background"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/item_cart_img_2"
+                android:layout_marginLeft="7dp"
+                >
+
+                <TextView
+                    android:id="@+id/item_cart_text_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product Name"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    />
+
+                <TextView
+                    android:id="@+id/item_cart_text_2"
+                    android:layout_below="@+id/item_cart_text_1"
+                    android:textSize="14dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="She sells sea sells on the sea shore she sells sea sells on the sea sore"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/item_cart_text_2"
+                    android:layout_marginTop="7dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="xkg"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:textStyle="normal"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Price:xxx.xx"
+                        android:textSize="18sp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_cart_append_layout_1"
+            android:layout_marginTop="7dp"
+            android:padding="5dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/qnt_background"
+                android:layout_marginRight="12dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="22dp">
+
+                    <ImageView
+                        android:id="@+id/item_cart_img_3"
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/remove"
+                        android:background="#D8D6D6"/>
+
+                    <TextView
+                        android:id="@+id/item_cart_text_3"
+                        android:layout_width="28dp"
+                        android:layout_height="match_parent"
+                        android:text="00"
+                        android:layout_toEndOf="@+id/item_cart_img_3"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        />
+
+                    <ImageView
+                        android:id="@+id/item_cart_img_4"
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/add"
+                        android:background="#D8D6D6"
+                        android:layout_toEndOf="@+id/item_cart_text_3"/>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_version.profile_user_account">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/activity_profile_user_account_append_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:cardElevation="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:id="@+id/activity_profile_user_account_back_img"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/back_arrow"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_profile_user_account_append_layout_1"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/activity_profile_user_account_append_layout_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/activity_profile_user_account_append_layout_2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true">
+
+                    <ImageView
+                        android:id="@+id/activity_profile_user_account_image_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/img"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/activity_profile_user_account_text_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hello UserName,"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#403E3E"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_below="@+id/activity_profile_user_account_append_layout_2"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/activity_profile_user_account_append_layout_3"
+                android:layout_marginTop="20dp">
+
+                <include
+                    layout="@layout/item_details_profile_user_account"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/activity_profile_user_account_progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#5B9E9E9E"
+        >
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

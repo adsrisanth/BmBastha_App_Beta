@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_activity_show_all_item_part_2_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp"
+    android:background="@drawable/background_details_for_items">
+
+    <RelativeLayout
+        android:id="@+id/item_activity_show_all_items_part_2_layout_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="210dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                >
+                <ImageView
+                    android:id="@+id/item_activity_show_all_item_part_2_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey_font"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:background="#3EBB7A"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/item_activity_show_all_item_part_2_text_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20% off"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="16dp"/>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@+id/item_activity_show_all_items_part_2_layout_1"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/item_activity_show_all_items_part_2_text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brand Name"
+            android:textColor="@color/grey_font"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            />
+
+        <TextView
+            android:id="@+id/item_activity_show_all_items_part_2_text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_activity_show_all_items_part_2_text_1"
+            android:layout_alignParentLeft="true"
+            android:text="she sells seashells on the seashore"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#676565"/>
+
+        <RelativeLayout
+            android:id="@+id/item_activity_show_all_items_part_2_layout_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_activity_show_all_items_part_2_text_2"
+            android:layout_marginTop="5dp"
+            >
+            <androidx.cardview.widget.CardView
+                android:id="@+id/item_activity_show_all_items_part_2_layout_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                android:layout_alignParentLeft="true"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#5B8EE86D"
+                    android:paddingRight="3dp"
+                    android:paddingLeft="7dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/item_activity_show_all_items_part_2_text_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:textColor="#34BA03"
+                        android:layout_centerVertical="true"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleY="0.65"
+                        android:scaleX="0.65"
+                        android:src="@drawable/stra"
+                        android:layout_toEndOf="@+id/item_activity_show_all_items_part_2_text_3"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/item_activity_show_all_item_part_2_text_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1290 Ratings"
+                android:layout_below="@+id/item_activity_show_all_items_part_2_layout_2"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="4px"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:textColor="@color/grey_font"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_activity_show_all_items_part_2_layout_4"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_below="@+id/item_activity_show_all_items_part_2_layout_3"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/background_select_quenty"
+            >
+
+            <TextView
+                android:id="@+id/item_activity_show_all_item_part_2_text_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:text="5 kg - Pouch"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/grey_font"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_activity_show_all_items_layout_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_activity_show_all_items_part_2_layout_4"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            >
+
+            <TextView
+                android:id="@+id/item_activity_show_all_item_part_2_text_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:text="₹321.50"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

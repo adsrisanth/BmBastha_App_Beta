@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp">
+
+    <RelativeLayout
+        android:id="@+id/item_bottom_address_layout_item"
+        android:layout_width="150dp"
+        android:layout_height="135dp"
+        android:background="@drawable/background_address_item"
+        android:padding="12dp">
+
+
+    <TextView
+        android:id="@+id/item_bottom_address_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kulukuri ..."
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/item_bottom_address_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="19-60\nSwanthra Nagar\nMadhuraw .."
+        android:layout_marginTop="4dp"
+        android:textSize="16sp"
+        android:textColor="@color/grey_font"
+        android:layout_below="@+id/item_bottom_address_text1"/>
+
+
+    </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

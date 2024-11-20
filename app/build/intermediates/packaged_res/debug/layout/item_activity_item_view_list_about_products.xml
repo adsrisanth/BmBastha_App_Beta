@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:style="http://schemas.android.com/tools"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:id="@+id/item_activity_item_view_list_about_products_layout_1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        >
+
+        <TextView
+            android:id="@+id/item_activity_item_view_list_about_products_text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/item_activity_item_view_list_about_products_text_1"
+            android:backgroundTint="#3EBB7A"
+            android:layout_marginLeft="15dp"
+            app:cardCornerRadius="5dp"
+            android:layout_alignParentBottom="true"
+            >
+
+            <TextView
+                android:id="@+id/item_activity_item_view_list_about_product_text_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".20% off"
+                android:textColor="@color/white"
+                android:layout_margin="4dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:textSize="12sp"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_activity_item_view_list_about_products_layout_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_activity_item_view_list_about_products_layout_1">
+
+        <RatingBar
+            android:id="@+id/item_activity_item_view_list_about_product_ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:numStars="5"
+            android:rating="4"
+            android:isIndicator="true"
+            android:scaleX="0.50"
+            android:scaleY="0.50"
+            android:layout_marginLeft="-60dp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/item_activity_item_view_list_about_products_text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_activity_item_view_list_about_products_layout_2"
+        android:text="the uf whfo r cojrojv ihgng iht qup qh [thhqht ihqith iqthqo iq ith iqht tqoit it it hqih i   htiht  to   i"
+        android:textSize="18sp"
+        android:textColor="#575656"
+        android:textStyle="normal"
+        />
+
+    <RelativeLayout
+        android:id="@+id/item_activity_item_view_list_about_products_text_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_activity_item_view_list_about_products_text_2"
+        android:background="@drawable/background_details_for_items"
+        >
+
+        <TextView
+            android:id="@+id/item_activity_item_view_list_about_products_text_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pack size"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#353535"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/item_activity_item_view_list_about_products_recycler_list"
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_activity_item_view_list_about_products_text_6"
+            style:listitem="@layout/item_pack_size"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            style:itemCount="3"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:visibility="invisible"
+        android:id="@+id/item_activity_item_view_list_about_products_layout_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/item_activity_item_view_list_about_products_text_5"
+        >
+
+        <TextView
+            android:id="@+id/item_activity_item_view_list_about_products_text_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Details"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#353535"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_activity_item_view_list_about_products_text_3"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#C6C3C3"
+            app:cardCornerRadius="15dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp">
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_activity_item_view_list_about_products_text_5"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:id="@+id/item_activity_item_view_list_about_products_text_4"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="  Ratings &amp; Reviews"
+            android:textColor="#000000"
+            android:textStyle="normal"
+            android:textSize="18dp"
+            android:background="@drawable/background_details_for_items"/>
+
+        <RelativeLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_activity_item_view_list_about_products_text_4"
+            >
+
+            <include
+                layout="@layout/item_review_rating_1"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

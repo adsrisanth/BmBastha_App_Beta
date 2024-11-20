@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="app_Bar">#6D4AC41B</color>
+    <color name="app_color1">#4AC41B</color>
+    <color name="black">#FF000000</color>
+    <color name="grey_font">#808080</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="ApiLink">https://bm-bastha-backend.onrender.com</string>
+    <string name="app_name">Biyyam Basta Shopping app</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <style name="Base.Theme.BiyyamBastaShoppingApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+    </style>
+    <style name="Theme.BiyyamBastaShoppingApp" parent="Base.Theme.BiyyamBastaShoppingApp"/>
+    <style name="ThemeOverlay.App.BottomNavigationView" parent="">
+        <item name="colorPrimary">#FF5722</item>
+        <item name="colorOnPrimary">#000000</item>
+    </style>
+    <style name="Widget.App.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.BottomNavigationView</item>
+    </style>
+</resources>

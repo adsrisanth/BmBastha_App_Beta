@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+      <RelativeLayout
+          android:id="@+id/fragment_account_fragment_append_layout_3"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="25dp"
+         >
+
+         <RelativeLayout
+             android:id="@+id/fragment_account_fragment_append_layout_1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:id="@+id/fragment_account_fragment_img_1"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+               android:src="@drawable/wishlist"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_below="@+id/fragment_account_fragment_img_1"
+               android:text="My Wishlist"
+               android:textColor="#5ECE5F"
+               android:textSize="12sp"
+               android:textStyle="bold"
+                android:layout_centerHorizontal="true"/>
+
+
+         </RelativeLayout>
+
+         <RelativeLayout
+             android:id="@+id/fragment_account_fragment_append_layout_2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_marginRight="10dp"
+             >
+
+            <ImageView
+                android:id="@+id/fragment_account_fragment_img_2"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:src="@drawable/adress"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fragment_account_fragment_img_2"
+                android:text="Address book"
+                android:textColor="#5ECE5F"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"/>
+
+
+         </RelativeLayout>
+
+         <RelativeLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_toEndOf="@+id/fragment_account_fragment_append_layout_1"
+             android:layout_toStartOf="@+id/fragment_account_fragment_append_layout_2"
+             >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_centerInParent="true"
+               >
+               <ImageView
+                   android:id="@+id/fragment_account_fragment_img_3"
+                   android:layout_width="50dp"
+                   android:layout_height="60dp"
+                   android:src="@drawable/order"
+                   android:layout_alignParentTop="true"
+                   android:layout_centerHorizontal="true"
+                   />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@+id/fragment_account_fragment_img_3"
+                   android:text="My orders"
+                   android:layout_centerHorizontal="true"
+                   android:textColor="#5ECE5F"
+                   android:textSize="12sp"
+                   android:textStyle="bold"/>
+
+            </RelativeLayout>
+
+
+         </RelativeLayout>
+
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:id="@+id/fragment_account_fragment_append_layout_4"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingLeft="25dp"
+          android:paddingRight="25dp"
+          android:layout_below="@+id/fragment_account_fragment_append_layout_3"
+          >
+
+         <RelativeLayout
+             android:id="@+id/fragment_account_fragment_append_layout_5"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:id="@+id/fragment_account_fragment_img_4"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:src="@drawable/coupens"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fragment_account_fragment_img_4"
+                android:text="Coupons"
+                android:textColor="#5ECE5F"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"/>
+
+
+         </RelativeLayout>
+
+         <RelativeLayout
+             android:id="@+id/fragment_account_fragment_append_layout_6"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_marginRight="10dp"
+             >
+
+            <ImageView
+                android:id="@+id/fragment_account_fragment_img_5"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:src="@drawable/cart"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fragment_account_fragment_img_5"
+                android:text="Cart"
+                android:textColor="#5ECE5F"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+
+
+         </RelativeLayout>
+
+         <RelativeLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_toEndOf="@+id/fragment_account_fragment_append_layout_5"
+             android:layout_toStartOf="@+id/fragment_account_fragment_append_layout_6"
+             >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                >
+               <ImageView
+                   android:id="@+id/fragment_account_fragment_img_6"
+                   android:layout_width="50dp"
+                   android:layout_height="60dp"
+                   android:src="@drawable/notification"
+                   android:layout_alignParentTop="true"
+                   android:layout_centerHorizontal="true"
+                   />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@+id/fragment_account_fragment_img_6"
+                   android:text="Notofications"
+                   android:layout_centerHorizontal="true"
+                   android:textColor="#5ECE5F"
+                   android:textSize="12sp"
+                   android:textStyle="bold"/>
+
+            </RelativeLayout>
+
+
+         </RelativeLayout>
+
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="80dp"
+         android:layout_below="@+id/fragment_account_fragment_append_layout_4"
+          android:background="#5ECE5F"
+          android:layout_marginTop="15dp"
+          android:padding="10dp">
+
+         <androidx.cardview.widget.CardView
+             android:id="@+id/fragment_account_fragment_append_layout_7"
+             android:layout_width="60dp"
+             android:layout_height="60dp"
+             app:cardCornerRadius="60dp"
+             android:layout_centerVertical="true"
+             android:layout_alignParentLeft="true"
+             android:layout_marginLeft="6dp"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+         </androidx.cardview.widget.CardView>
+
+         <ImageView
+             android:id="@+id/fragment_account_fragment_img_7"
+             android:layout_width="40dp"
+             android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+             android:src="@drawable/arrow_right"
+            />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/fragment_account_fragment_append_layout_7"
+            android:layout_toStartOf="@+id/fragment_account_fragment_img_7"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:text="Full Name"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+      </RelativeLayout>
+
+   </RelativeLayout>
+
+</FrameLayout>

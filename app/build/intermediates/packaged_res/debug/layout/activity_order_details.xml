@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_version.order_details_activity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/activity_order_details_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_order_details_layout1"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey_font"
+            >
+
+            <RelativeLayout
+                android:id="@+id/activity_order_details_layout_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:padding="20dp"
+                android:background="@drawable/background_details_for_items"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="Order ID-1289138981517"
+                    android:textColor="#B5B4B4"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/activity_order_details_layout_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/activity_order_details_layout_1"
+                android:padding="15dp"
+                android:background="@drawable/background_details_for_items">
+
+                <TextView
+                    android:id="@+id/activity_order_details_text_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5 items"
+                    android:textColor="#4A4A4A"
+                    android:textStyle="bold"
+                    android:textSize="20dp"/>
+
+                <LinearLayout
+                    android:id="@+id/activity_order_details_layout_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_below="@+id/activity_order_details_text_1">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/fragment_home_recycler_view_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:padding="10dp"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        tools:listitem="@layout/item_cart_at_activity_proceed_to_buy"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/activity_order_details_layout_2"
+                    android:text="₹317"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/activity_order_details_layout_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/activity_order_details_layout_3"
+                android:padding="15dp"
+                android:background="@drawable/background_details_for_items">
+
+                <com.baoyachi.stepview.VerticalStepView
+                    android:id="@+id/activity_order_details_step_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" />
+
+<!--                <com.shuhart.stepview.StepView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    />-->
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/activity_order_details_layout_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/activity_order_details_layout_4"
+                android:layout_marginTop="7dp"
+                android:background="@color/white"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/activity_order_details_layout_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="@drawable/background_details_for_items"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Shipping Details"
+                        android:textColor="@color/grey_font"
+                        android:textStyle="normal"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/activity_order_details_layout_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/activity_order_details_layout_5"
+                    android:padding="15dp"
+                    android:background="@color/white"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <RelativeLayout
+                            android:id="@+id/activity_order_details_text_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentLeft="true"
+                                android:text="Kulukuri Praneeth"
+                                android:textStyle="bold"
+                                android:textColor="#4A4A4A"
+                                android:textSize="20sp"/>
+
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/activity_order_details_text_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/activity_order_details_text_2"
+                            android:layout_alignParentLeft="true"
+                            android:textSize="18dp"
+                            android:textStyle="normal"
+                            android:layout_marginTop="10dp"
+                            android:text="19-60, Swanthra Nagar, Madharawada, Andhra Pradesh, 5300048"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/activity_order_details_text_3"
+                            android:text="8074674228"
+                            android:textStyle="normal"
+                            android:textSize="18sp"
+                            android:layout_marginTop="8dp"/>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/activity_order_details_layout_7"
+                android:background="@color/white"
+                android:layout_marginTop="7dp">
+
+                <RelativeLayout
+                    android:id="@+id/activity_order_details_layout_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:padding="15dp"
+                    android:background="@drawable/background_details_for_items">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Price Details"
+                        android:textStyle="normal"
+                        android:textColor="@color/grey_font"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/activity_order_details_layout_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="@drawable/background_details_for_items"
+                    android:layout_below="@+id/activity_order_details_layout_8">
+
+                    <RelativeLayout
+                        android:id="@+id/activity_order_details_layout_9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="MRP( 5 items)"
+                            android:textColor="@color/black"
+                            android:textStyle="normal"
+                            android:textSize="18dp"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentLeft="true"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="₹417"
+                            android:textColor="@color/black"
+                            android:textStyle="normal"
+                            android:textSize="18dp"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/activity_order_details_layout_10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/activity_order_details_layout_9"
+                        android:layout_marginTop="13dp"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Product Discount"
+                            android:textColor="@color/black"
+                            android:textStyle="normal"
+                            android:textSize="18dp"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentLeft="true"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-₹100"
+                            android:textColor="#33E633"
+                            android:textStyle="normal"
+                            android:textSize="18dp"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/activity_order_details_layout_11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/activity_order_details_layout_10"
+                        android:layout_marginTop="13dp"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Delevery Fee"
+                            android:textColor="@color/black"
+                            android:textStyle="normal"
+                            android:textSize="18dp"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentLeft="true"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="FREE DELEVERY"
+                            android:textColor="#33E633"
+                            android:textStyle="normal"
+                            android:textSize="18dp"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"/>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/activity_order_details_layout_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/activity_order_details_layout_12"
+                    android:padding="15dp"
+                    android:background="@drawable/background_details_for_items"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Total Amount"
+                            android:textColor="@color/black"
+                            android:textStyle="normal"
+                            android:textSize="18dp"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentLeft="true"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="₹317"
+                            android:textColor="@color/black"
+                            android:textStyle="normal"
+                            android:textSize="18dp"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"/>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:layout_below="@+id/activity_order_details_layout_13"
+                    android:background="@drawable/background_details_for_items">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Payment mode:Cash On Delivery"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:textSize="18dp"/>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

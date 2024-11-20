@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_details_for_items"
+    android:paddingBottom="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true">
+
+            <RelativeLayout
+                android:id="@+id/item_review_rating_2_layout_1"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                >
+
+                <TextView
+                    android:id="@+id/item_review_rating_2_text_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0.0"
+                    android:textSize="40dp"
+                    android:textStyle="bold"
+                    android:textColor="#34BA03"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/stra"
+                    android:layout_toEndOf="@+id/item_review_rating_2_text_1"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="7dp"/>
+
+
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/item_review_rating_2_text_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14390 ratings &amp; 649 reviews"
+                android:layout_below="@+id/item_review_rating_2_layout_1"
+                android:layout_marginTop="3dp"
+                android:textColor="#717171"
+                android:textSize="16dp"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/item_review_rating_2_btn"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arrow_right_grey"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

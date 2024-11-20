@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_version.cart_fragment">
+
+    <RelativeLayout
+        android:id="@+id/fragment_home_"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/fragment_cart_fragment_append_1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            >
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fragment_cart_fragment_append_layout_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            android:layout_below="@+id/fragment_cart_fragment_append_1">
+
+
+            <RelativeLayout
+                android:id="@+id/fragment_cart_fragment_append_layout_2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentBottom="true"
+                android:background="#F6F6F6">
+
+                <RelativeLayout
+                    android:id="@+id/fragment_cart_fragment_append_layout_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:padding="10dp"
+                    android:visibility="visible"
+                    >
+
+                    <TextView
+                        android:id="@+id/fragment_cart_fragment_append_text_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/fragment_cart_fragment_append_text_1"
+                        android:text="999.99"
+                        android:textSize="25dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="#010E15"
+                        android:textStyle="bold"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/fragment_cart_fragment_append_layout_5"
+                    android:clickable="false"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/place_order_btn"
+                    android:layout_marginRight="15dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="Place Order"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/fragment_cart_fragment_recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_above="@+id/fragment_cart_fragment_append_layout_2"
+                tools:listitem="@layout/item_cart_part_2"
+                android:padding="10dp"
+                android:background="#FFFFFF"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fragment_cart_fragment_append_layout_4"
+            android:layout_below="@+id/fragment_cart_fragment_append_1"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/img_fragment_cart_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/emptycartimg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Opps! It seems your cart is currently empty."
+                android:layout_below="@+id/img_fragment_cart_fragment"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"/>
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+
+</FrameLayout>

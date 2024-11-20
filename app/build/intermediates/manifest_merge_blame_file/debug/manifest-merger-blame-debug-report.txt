@@ -1,0 +1,580 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.boina.works.projects.biyyambastashoppingapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+12-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:6:5-77
+12-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:6:22-74
+13    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+13-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:8:5-79
+14-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:9:5-75
+15-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:9:22-72
+16
+17    <queries>
+17-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:11:5-53:15
+18        <intent>
+18-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:12:9-17:18
+19            <data
+19-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:13:13-16:40
+20                android:host="pay"
+20-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:14:17-35
+21                android:pathPattern=".*"
+21-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:15:17-41
+22                android:scheme="upi" />
+22-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:16:17-37
+23        </intent>
+24        <intent>
+24-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:18:9-20:18
+25            <action android:name="android.support.customtabs.action.CustomTabsService" />
+25-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:19:13-90
+25-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:19:21-87
+26        </intent>
+27        <intent>
+27-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:21:9-26:18
+28            <data
+28-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:13:13-16:40
+29                android:host="mandate"
+29-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:14:17-35
+30                android:pathPattern=".*"
+30-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:15:17-41
+31                android:scheme="upi" />
+31-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:16:17-37
+32        </intent>
+33        <intent>
+33-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:27:9-31:18
+34            <data
+34-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:13:13-16:40
+35                android:pathPattern=".*"
+35-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:15:17-41
+36                android:scheme="upi" />
+36-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:16:17-37
+37        </intent>
+38        <intent>
+38-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:32:9-37:18
+39            <data
+39-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:13:13-16:40
+40                android:host="pay"
+40-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:14:17-35
+41                android:pathPattern=".*"
+41-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:15:17-41
+42                android:scheme="juspay" />
+42-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:16:17-37
+43        </intent>
+44        <intent>
+44-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:38:9-43:18
+45            <data
+45-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:13:13-16:40
+46                android:host="checkout"
+46-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:14:17-35
+47                android:pathPattern=".*"
+47-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:15:17-41
+48                android:scheme="credpay" />
+48-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:16:17-37
+49        </intent>
+50
+51        <package android:name="com.tatadigital.tcp.dev" />
+51-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:45:9-59
+51-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:45:18-56
+52        <package android:name="com.tatadigital.tcp" />
+52-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:46:9-55
+52-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:46:18-52
+53
+54        <intent>
+54-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:48:9-52:18
+55            <action android:name="android.intent.action.VIEW" />
+55-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:49:13-65
+55-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:49:21-62
+56
+57            <data android:mimeType="application/uri" />
+57-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:13:13-16:40
+58        </intent>
+59    </queries>
+60
+61    <uses-permission android:name="android.permission.NFC" />
+61-->[in.juspay:hypernfc:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\1e09e4ceb3c6278668169a329a9fd59c\transformed\jetified-hypernfc-2.1.20\AndroidManifest.xml:7:5-62
+61-->[in.juspay:hypernfc:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\1e09e4ceb3c6278668169a329a9fd59c\transformed\jetified-hypernfc-2.1.20\AndroidManifest.xml:7:22-59
+62
+63    <permission
+63-->[androidx.core:core:1.13.0] C:\Users\adsri\.gradle\caches\transforms-3\eb0c224cbe1c77267ef937946b2722c2\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+64        android:name="com.boina.works.projects.biyyambastashoppingapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+64-->[androidx.core:core:1.13.0] C:\Users\adsri\.gradle\caches\transforms-3\eb0c224cbe1c77267ef937946b2722c2\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+65        android:protectionLevel="signature" />
+65-->[androidx.core:core:1.13.0] C:\Users\adsri\.gradle\caches\transforms-3\eb0c224cbe1c77267ef937946b2722c2\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+66
+67    <uses-permission android:name="com.boina.works.projects.biyyambastashoppingapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+67-->[androidx.core:core:1.13.0] C:\Users\adsri\.gradle\caches\transforms-3\eb0c224cbe1c77267ef937946b2722c2\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+67-->[androidx.core:core:1.13.0] C:\Users\adsri\.gradle\caches\transforms-3\eb0c224cbe1c77267ef937946b2722c2\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+68
+69    <application
+69-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:9:5-150:19
+70        android:allowBackup="true"
+70-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:10:9-35
+71        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+71-->[androidx.core:core:1.13.0] C:\Users\adsri\.gradle\caches\transforms-3\eb0c224cbe1c77267ef937946b2722c2\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+72        android:dataExtractionRules="@xml/data_extraction_rules"
+72-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:11:9-65
+73        android:debuggable="true"
+74        android:fullBackupContent="@xml/backup_rules"
+74-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:12:9-54
+75        android:hardwareAccelerated="true"
+75-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:55:18-52
+76        android:icon="@mipmap/ic_launcher"
+76-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:13:9-43
+77        android:label="@string/app_name"
+77-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:14:9-41
+78        android:roundIcon="@mipmap/ic_launcher_round"
+78-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:15:9-54
+79        android:supportsRtl="true"
+79-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:16:9-35
+80        android:testOnly="true"
+81        android:theme="@style/Theme.BiyyamBastaShoppingApp" >
+81-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:17:9-60
+82        <activity
+82-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:19:9-30:20
+83            android:name="com.boina.works.projects.biyyambastashoppingapp.TestNotification.NotificationView"
+83-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:20:13-62
+84            android:exported="true"
+84-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:21:13-36
+85            android:label="NotificationView"
+85-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:22:13-45
+86            android:parentActivityName="com.boina.works.projects.biyyambastashoppingapp.TestNotification.NotificationView" >
+86-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:23:13-76
+87            <meta-data
+87-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:26:13-28:48
+88                android:name="android.support.PARENT_ACTIVITY"
+88-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:27:17-63
+89                android:value=".MainActivity" />
+89-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:28:17-46
+90        </activity>
+91
+92        <receiver android:name="com.boina.works.projects.biyyambastashoppingapp.TestNotification.NotificationReceiver" />
+92-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:32:9-75
+92-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:32:19-72
+93
+94        <activity
+94-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:34:9-39:20
+95            android:name="com.boina.works.projects.biyyambastashoppingapp.TestNotification.testNoti"
+95-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:35:13-54
+96            android:exported="true"
+96-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:36:13-36
+97            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" >
+97-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:37:13-78
+98        </activity>
+99        <activity
+99-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:40:9-43:81
+100            android:name="com.boina.works.projects.biyyambastashoppingapp.testPackage.TestPayment"
+100-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:41:13-52
+101            android:exported="true"
+101-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:42:13-36
+102            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+102-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:43:13-78
+103        <activity
+103-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:44:9-47:81
+104            android:name="com.boina.works.projects.biyyambastashoppingapp.user_version.privace_policy"
+104-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:45:13-56
+105            android:exported="true"
+105-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:46:13-36
+106            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+106-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:47:13-78
+107        <activity
+107-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:48:9-51:81
+108            android:name="com.boina.works.projects.biyyambastashoppingapp.account.forgetPassword"
+108-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:49:13-51
+109            android:exported="false"
+109-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:50:13-37
+110            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+110-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:51:13-78
+111        <activity
+111-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:52:9-55:81
+112            android:name="com.boina.works.projects.biyyambastashoppingapp.test"
+112-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:53:13-33
+113            android:exported="true"
+113-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:54:13-36
+114            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+114-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:55:13-78
+115        <activity
+115-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:56:9-59:81
+116            android:name="com.boina.works.projects.biyyambastashoppingapp.testPackage.test"
+116-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:57:13-45
+117            android:exported="true"
+117-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:58:13-36
+118            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+118-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:59:13-78
+119        <activity
+119-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:60:9-63:81
+120            android:name="com.boina.works.projects.biyyambastashoppingapp.user_version.filters_activity"
+120-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:61:13-58
+121            android:exported="false"
+121-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:62:13-37
+122            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+122-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:63:13-78
+123        <activity
+123-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:64:9-67:81
+124            android:name="com.boina.works.projects.biyyambastashoppingapp.user_version.order_details_activity"
+124-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:65:13-64
+125            android:exported="true"
+125-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:66:13-36
+126            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+126-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:67:13-78
+127        <activity
+127-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:68:9-71:81
+128            android:name="com.boina.works.projects.biyyambastashoppingapp.user_version.proceed_to_buy_activity"
+128-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:69:13-65
+129            android:exported="false"
+129-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:70:13-37
+130            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+130-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:71:13-78
+131        <activity
+131-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:72:9-75:81
+132            android:name="com.boina.works.projects.biyyambastashoppingapp.user_version.MyCart_activity"
+132-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:73:13-57
+133            android:exported="false"
+133-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:74:13-37
+134            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+134-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:75:13-78
+135        <activity
+135-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:76:9-79:81
+136            android:name="com.boina.works.projects.biyyambastashoppingapp.user_version.add_new_address"
+136-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:77:13-57
+137            android:exported="true"
+137-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:78:13-36
+138            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+138-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:79:13-78
+139        <activity
+139-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:80:9-83:81
+140            android:name="com.boina.works.projects.biyyambastashoppingapp.user_version.search_activity"
+140-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:81:13-57
+141            android:exported="true"
+141-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:82:13-36
+142            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+142-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:83:13-78
+143        <activity
+143-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:84:9-87:81
+144            android:name="com.boina.works.projects.biyyambastashoppingapp.user_version.show_all_items_activity"
+144-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:85:13-65
+145            android:exported="false"
+145-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:86:13-37
+146            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+146-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:87:13-78
+147        <activity
+147-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:88:9-91:81
+148            android:name="com.boina.works.projects.biyyambastashoppingapp.user_version.review_rating_full_activity"
+148-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:89:13-69
+149            android:exported="false"
+149-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:90:13-37
+150            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+150-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:91:13-78
+151        <activity
+151-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:92:9-95:81
+152            android:name="com.boina.works.projects.biyyambastashoppingapp.user_version.item_view_list"
+152-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:93:13-56
+153            android:exported="true"
+153-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:94:13-36
+154            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+154-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:95:13-78
+155        <activity
+155-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:96:9-99:81
+156            android:name="com.boina.works.projects.biyyambastashoppingapp.user_version.myorder_activity"
+156-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:97:13-58
+157            android:exported="false"
+157-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:98:13-37
+158            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+158-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:99:13-78
+159        <activity
+159-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:100:9-103:81
+160            android:name="com.boina.works.projects.biyyambastashoppingapp.user_version.address_user"
+160-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:101:13-54
+161            android:exported="false"
+161-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:102:13-37
+162            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+162-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:103:13-78
+163        <activity
+163-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:104:9-107:81
+164            android:name="com.boina.works.projects.biyyambastashoppingapp.user_version.coupons_user"
+164-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:105:13-54
+165            android:exported="false"
+165-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:106:13-37
+166            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+166-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:107:13-78
+167        <activity
+167-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:108:9-111:81
+168            android:name="com.boina.works.projects.biyyambastashoppingapp.user_version.profile_user_account"
+168-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:109:13-62
+169            android:exported="false"
+169-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:110:13-37
+170            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+170-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:111:13-78
+171        <activity
+171-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:112:9-115:81
+172            android:name="com.boina.works.projects.biyyambastashoppingapp.user_version.user_Main_activity"
+172-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:113:13-60
+173            android:exported="true"
+173-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:114:13-36
+174            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+174-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:115:13-78
+175        <activity
+175-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:116:9-119:81
+176            android:name="com.boina.works.projects.biyyambastashoppingapp.account.Sign_up"
+176-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:117:13-44
+177            android:exported="true"
+177-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:118:13-36
+178            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+178-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:119:13-78
+179        <activity
+179-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:120:9-123:81
+180            android:name="com.boina.works.projects.biyyambastashoppingapp.account.Sign_in"
+180-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:121:13-44
+181            android:exported="true"
+181-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:122:13-36
+182            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+182-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:123:13-78
+183        <activity
+183-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:124:9-135:20
+184            android:name="com.boina.works.projects.biyyambastashoppingapp.splash_screen"
+184-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:125:13-42
+185            android:exported="true"
+185-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:126:13-36
+186            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" >
+186-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:127:13-78
+187            <intent-filter>
+187-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:129:13-133:29
+188                <action android:name="android.intent.action.MAIN" />
+188-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:130:17-69
+188-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:130:25-66
+189
+190                <category android:name="android.intent.category.LAUNCHER" />
+190-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:132:17-77
+190-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:132:27-74
+191            </intent-filter>
+192        </activity>
+193        <activity
+193-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:136:9-139:81
+194            android:name="com.boina.works.projects.biyyambastashoppingapp.MainActivity"
+194-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:137:13-41
+195            android:exported="true"
+195-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:138:13-36
+196            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+196-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:139:13-78
+197
+198        <meta-data
+198-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:141:9-143:36
+199            android:name="com.phonepe.android.sdk.isUAT"
+199-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:142:13-57
+200            android:value="true" />
+200-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:143:13-33
+201        <meta-data
+201-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:144:9-146:36
+202            android:name="com.phonepe.android.sdk.isSimulator"
+202-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:145:13-63
+203            android:value="true" />
+203-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:146:13-33
+204        <meta-data
+204-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:147:9-149:44
+205            android:name="com.phonepe.android.sdk.MerchantId"
+205-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:148:13-62
+206            android:value="PGTESTPAYUAT" />
+206-->C:\Users\adsri\Coding\Biyyam-Basta-app-master\app\src\main\AndroidManifest.xml:149:13-41
+207
+208        <activity
+208-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:56:9-59:47
+209            android:name="in.juspay.hypersdk.core.CustomtabActivity"
+209-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:57:13-69
+210            android:exported="false"
+210-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:58:13-37
+211            android:launchMode="singleTask" />
+211-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:59:13-44
+212        <activity
+212-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:60:9-74:20
+213            android:name="in.juspay.hypersdk.core.CustomtabResult"
+213-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:61:13-67
+214            android:exported="true"
+214-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:62:13-36
+215            android:launchMode="singleTask" >
+215-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:63:13-44
+216            <intent-filter>
+216-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:64:13-73:29
+217                <action android:name="android.intent.action.VIEW" />
+217-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:49:13-65
+217-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:49:21-62
+218
+219                <category android:name="android.intent.category.DEFAULT" />
+219-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:67:17-76
+219-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:67:27-73
+220                <category android:name="android.intent.category.BROWSABLE" />
+220-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:68:17-78
+220-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:68:27-75
+221
+222                <data
+222-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:13:13-16:40
+223                    android:host="com.boina.works.projects.biyyambastashoppingapp"
+223-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:14:17-35
+224                    android:scheme="juspay" />
+224-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:16:17-37
+225            </intent-filter>
+226        </activity>
+227        <activity
+227-->[in.juspay:hypernfc:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\1e09e4ceb3c6278668169a329a9fd59c\transformed\jetified-hypernfc-2.1.20\AndroidManifest.xml:10:9-19:20
+228            android:name="in.juspay.hypernfc.NfcActivity"
+228-->[in.juspay:hypernfc:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\1e09e4ceb3c6278668169a329a9fd59c\transformed\jetified-hypernfc-2.1.20\AndroidManifest.xml:11:13-58
+229            android:exported="false"
+229-->[in.juspay:hypernfc:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\1e09e4ceb3c6278668169a329a9fd59c\transformed\jetified-hypernfc-2.1.20\AndroidManifest.xml:12:13-37
+230            android:launchMode="singleTop" >
+230-->[in.juspay:hypernfc:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\1e09e4ceb3c6278668169a329a9fd59c\transformed\jetified-hypernfc-2.1.20\AndroidManifest.xml:13:13-43
+231            <intent-filter>
+231-->[in.juspay:hypernfc:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\1e09e4ceb3c6278668169a329a9fd59c\transformed\jetified-hypernfc-2.1.20\AndroidManifest.xml:14:13-18:29
+232                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+232-->[in.juspay:hypernfc:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\1e09e4ceb3c6278668169a329a9fd59c\transformed\jetified-hypernfc-2.1.20\AndroidManifest.xml:15:17-77
+232-->[in.juspay:hypernfc:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\1e09e4ceb3c6278668169a329a9fd59c\transformed\jetified-hypernfc-2.1.20\AndroidManifest.xml:15:25-74
+233
+234                <category android:name="android.intent.category.DEFAULT" />
+234-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:67:17-76
+234-->[in.juspay:hypersdk:2.1.20] C:\Users\adsri\.gradle\caches\transforms-3\83b84d61324664bcdf3232193886682e\transformed\jetified-hypersdk-2.1.20\AndroidManifest.xml:67:27-73
+235            </intent-filter>
+236        </activity>
+237        <activity
+237-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\adsri\.gradle\caches\transforms-3\440a41260c574658fd1c4e25f9d1382b\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:23:9-27:75
+238            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+238-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\adsri\.gradle\caches\transforms-3\440a41260c574658fd1c4e25f9d1382b\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:24:13-93
+239            android:excludeFromRecents="true"
+239-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\adsri\.gradle\caches\transforms-3\440a41260c574658fd1c4e25f9d1382b\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:25:13-46
+240            android:exported="false"
+240-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\adsri\.gradle\caches\transforms-3\440a41260c574658fd1c4e25f9d1382b\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:26:13-37
+241            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+241-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\adsri\.gradle\caches\transforms-3\440a41260c574658fd1c4e25f9d1382b\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:27:13-72
+242        <!--
+243            Service handling Google Sign-In user revocation. For apps that do not integrate with
+244            Google Sign-In, this service will never be started.
+245        -->
+246        <service
+246-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\adsri\.gradle\caches\transforms-3\440a41260c574658fd1c4e25f9d1382b\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:33:9-37:51
+247            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+247-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\adsri\.gradle\caches\transforms-3\440a41260c574658fd1c4e25f9d1382b\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:34:13-89
+248            android:exported="true"
+248-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\adsri\.gradle\caches\transforms-3\440a41260c574658fd1c4e25f9d1382b\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:35:13-36
+249            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+249-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\adsri\.gradle\caches\transforms-3\440a41260c574658fd1c4e25f9d1382b\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:36:13-107
+250            android:visibleToInstantApps="true" />
+250-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\adsri\.gradle\caches\transforms-3\440a41260c574658fd1c4e25f9d1382b\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:37:13-48
+251
+252        <activity
+252-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\adsri\.gradle\caches\transforms-3\3064fec73b93b59b1fac4f0d4cde4264\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+253            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+253-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\adsri\.gradle\caches\transforms-3\3064fec73b93b59b1fac4f0d4cde4264\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+254            android:exported="false"
+254-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\adsri\.gradle\caches\transforms-3\3064fec73b93b59b1fac4f0d4cde4264\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+255            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+255-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\adsri\.gradle\caches\transforms-3\3064fec73b93b59b1fac4f0d4cde4264\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+256
+257        <meta-data
+257-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\adsri\.gradle\caches\transforms-3\ac5060c3e30e500a5a19464bbdc8ed30\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+258            android:name="com.google.android.gms.version"
+258-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\adsri\.gradle\caches\transforms-3\ac5060c3e30e500a5a19464bbdc8ed30\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+259            android:value="@integer/google_play_services_version" />
+259-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\adsri\.gradle\caches\transforms-3\ac5060c3e30e500a5a19464bbdc8ed30\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+260
+261        <provider
+261-->[androidx.emoji2:emoji2:1.3.0] C:\Users\adsri\.gradle\caches\transforms-3\53e1b0404aae9e4e7b364d539a2c80ea\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+262            android:name="androidx.startup.InitializationProvider"
+262-->[androidx.emoji2:emoji2:1.3.0] C:\Users\adsri\.gradle\caches\transforms-3\53e1b0404aae9e4e7b364d539a2c80ea\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+263            android:authorities="com.boina.works.projects.biyyambastashoppingapp.androidx-startup"
+263-->[androidx.emoji2:emoji2:1.3.0] C:\Users\adsri\.gradle\caches\transforms-3\53e1b0404aae9e4e7b364d539a2c80ea\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+264            android:exported="false" >
+264-->[androidx.emoji2:emoji2:1.3.0] C:\Users\adsri\.gradle\caches\transforms-3\53e1b0404aae9e4e7b364d539a2c80ea\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+265            <meta-data
+265-->[androidx.emoji2:emoji2:1.3.0] C:\Users\adsri\.gradle\caches\transforms-3\53e1b0404aae9e4e7b364d539a2c80ea\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+266                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+266-->[androidx.emoji2:emoji2:1.3.0] C:\Users\adsri\.gradle\caches\transforms-3\53e1b0404aae9e4e7b364d539a2c80ea\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+267                android:value="androidx.startup" />
+267-->[androidx.emoji2:emoji2:1.3.0] C:\Users\adsri\.gradle\caches\transforms-3\53e1b0404aae9e4e7b364d539a2c80ea\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+268            <meta-data
+268-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\adsri\.gradle\caches\transforms-3\f4f9b7a0bc16d169e0b7267719c07b40\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+269                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+269-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\adsri\.gradle\caches\transforms-3\f4f9b7a0bc16d169e0b7267719c07b40\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+270                android:value="androidx.startup" />
+270-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\adsri\.gradle\caches\transforms-3\f4f9b7a0bc16d169e0b7267719c07b40\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+271            <meta-data
+271-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\adsri\.gradle\caches\transforms-3\6ae694e4ad816566f9efc13c9fbd7db8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+272                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+272-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\adsri\.gradle\caches\transforms-3\6ae694e4ad816566f9efc13c9fbd7db8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+273                android:value="androidx.startup" />
+273-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\adsri\.gradle\caches\transforms-3\6ae694e4ad816566f9efc13c9fbd7db8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+274        </provider>
+275
+276        <uses-library
+276-->[androidx.window:window:1.0.0] C:\Users\adsri\.gradle\caches\transforms-3\f82729c9bc781c8a43c83b28d749c265\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+277            android:name="androidx.window.extensions"
+277-->[androidx.window:window:1.0.0] C:\Users\adsri\.gradle\caches\transforms-3\f82729c9bc781c8a43c83b28d749c265\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+278            android:required="false" />
+278-->[androidx.window:window:1.0.0] C:\Users\adsri\.gradle\caches\transforms-3\f82729c9bc781c8a43c83b28d749c265\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+279        <uses-library
+279-->[androidx.window:window:1.0.0] C:\Users\adsri\.gradle\caches\transforms-3\f82729c9bc781c8a43c83b28d749c265\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+280            android:name="androidx.window.sidecar"
+280-->[androidx.window:window:1.0.0] C:\Users\adsri\.gradle\caches\transforms-3\f82729c9bc781c8a43c83b28d749c265\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+281            android:required="false" />
+281-->[androidx.window:window:1.0.0] C:\Users\adsri\.gradle\caches\transforms-3\f82729c9bc781c8a43c83b28d749c265\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+282
+283        <provider
+283-->[com.squareup.picasso:picasso:2.71828] C:\Users\adsri\.gradle\caches\transforms-3\622794f41409854117d7481ad6aef419\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+284            android:name="com.squareup.picasso.PicassoProvider"
+284-->[com.squareup.picasso:picasso:2.71828] C:\Users\adsri\.gradle\caches\transforms-3\622794f41409854117d7481ad6aef419\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+285            android:authorities="com.boina.works.projects.biyyambastashoppingapp.com.squareup.picasso"
+285-->[com.squareup.picasso:picasso:2.71828] C:\Users\adsri\.gradle\caches\transforms-3\622794f41409854117d7481ad6aef419\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+286            android:exported="false" />
+286-->[com.squareup.picasso:picasso:2.71828] C:\Users\adsri\.gradle\caches\transforms-3\622794f41409854117d7481ad6aef419\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+287
+288        <receiver
+288-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\adsri\.gradle\caches\transforms-3\6ae694e4ad816566f9efc13c9fbd7db8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+289            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+289-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\adsri\.gradle\caches\transforms-3\6ae694e4ad816566f9efc13c9fbd7db8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+290            android:directBootAware="false"
+290-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\adsri\.gradle\caches\transforms-3\6ae694e4ad816566f9efc13c9fbd7db8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+291            android:enabled="true"
+291-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\adsri\.gradle\caches\transforms-3\6ae694e4ad816566f9efc13c9fbd7db8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+292            android:exported="true"
+292-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\adsri\.gradle\caches\transforms-3\6ae694e4ad816566f9efc13c9fbd7db8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+293            android:permission="android.permission.DUMP" >
+293-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\adsri\.gradle\caches\transforms-3\6ae694e4ad816566f9efc13c9fbd7db8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+294            <intent-filter>
+294-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\adsri\.gradle\caches\transforms-3\6ae694e4ad816566f9efc13c9fbd7db8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+295                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+295-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\adsri\.gradle\caches\transforms-3\6ae694e4ad816566f9efc13c9fbd7db8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+295-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\adsri\.gradle\caches\transforms-3\6ae694e4ad816566f9efc13c9fbd7db8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+296            </intent-filter>
+297            <intent-filter>
+297-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\adsri\.gradle\caches\transforms-3\6ae694e4ad816566f9efc13c9fbd7db8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+298                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+298-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\adsri\.gradle\caches\transforms-3\6ae694e4ad816566f9efc13c9fbd7db8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+298-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\adsri\.gradle\caches\transforms-3\6ae694e4ad816566f9efc13c9fbd7db8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+299            </intent-filter>
+300            <intent-filter>
+300-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\adsri\.gradle\caches\transforms-3\6ae694e4ad816566f9efc13c9fbd7db8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+301                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+301-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\adsri\.gradle\caches\transforms-3\6ae694e4ad816566f9efc13c9fbd7db8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+301-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\adsri\.gradle\caches\transforms-3\6ae694e4ad816566f9efc13c9fbd7db8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+302            </intent-filter>
+303            <intent-filter>
+303-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\adsri\.gradle\caches\transforms-3\6ae694e4ad816566f9efc13c9fbd7db8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+304                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+304-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\adsri\.gradle\caches\transforms-3\6ae694e4ad816566f9efc13c9fbd7db8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+304-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\adsri\.gradle\caches\transforms-3\6ae694e4ad816566f9efc13c9fbd7db8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+305            </intent-filter>
+306        </receiver>
+307    </application>
+308
+309</manifest>

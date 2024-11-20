@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:id="@+id/bottom_item_for_item_option_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="10dp"
+        android:background="@drawable/background_details_for_items"
+        >
+
+        <RelativeLayout
+            android:id="@+id/botttom_item_for_item_option_layout_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="20dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey_font"
+                    />
+
+
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/bottom_item_for_item_option_image_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/close"
+            android:layout_alignParentRight="true"
+            android:scaleX="1.5"
+            android:scaleY="1.5"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/botttom_item_for_item_option_layout_1"
+            android:layout_toStartOf="@+id/bottom_item_for_item_option_image_1"
+            android:layout_marginLeft="20dp"
+            >
+
+            <TextView
+                android:id="@+id/bottom_item_for_item_option_text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Brand Name"
+                android:textColor="@color/grey_font"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bottom_item_for_item_option_text_1"
+                android:text="she sells seashells on the seashore"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#676565"
+                android:layout_marginRight="40dp"/>
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bottom_item_for_item_option_layout_1"
+        android:layout_marginTop="7dp"
+        >
+
+        <TextView
+            android:id="@+id/bottom_item_for_item_option_text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose an option"
+            android:textSize="18sp"
+            android:textColor="#807D7D"
+            android:textStyle="bold"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/bottom_item_for_item_option_text_2"
+            android:layout_marginTop="5dp"
+            android:padding="0dp"
+            tools:listitem="@layout/item_bottom_for_item_option"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="6dp"
+    android:background="@drawable/background_details_for_items"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/item_review_rating_3_text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Highlights"
+        android:textSize="18dp"
+        android:textColor="#424040"
+        android:textStyle="normal"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_review_rating_3_text_2"
+        android:layout_marginBottom="10dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/item_review_rating_3_layout_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            >
+
+            <RelativeLayout
+                android:id="@+id/item_review_rating_3_layout_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true">
+
+                <com.google.android.material.progressindicator.CircularProgressIndicator
+                    android:id="@+id/item_review_rating_3_highlight_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:indicatorSize="70dp"
+                    app:trackThickness="4dp"
+                    android:scaleY="1"
+                    android:scaleX="1"
+                    android:max="50"
+                    android:progress="45"
+                    app:trackColor="@color/white"
+                    app:indicatorColor="#34BA03"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:includeFontPadding="false"
+                    android:text="4.5"
+                    android:textColor="#717171"
+                    android:textSize="22dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_review_rating_3_layout_3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/item_review_rating_3_text_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HighLight1"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#424040"
+                    android:textStyle="normal"
+                    android:textSize="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/item_review_rating_3_text_3"
+                    android:text="0 ratings"
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="normal"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#717171"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_review_rating_3_layout_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            >
+
+            <RelativeLayout
+                android:id="@+id/item_review_rating_3_layout_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true">
+
+                <com.google.android.material.progressindicator.CircularProgressIndicator
+                    android:id="@+id/item_review_rating_3_highlight_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:indicatorSize="70dp"
+                    app:trackThickness="4dp"
+                    android:scaleY="1"
+                    android:scaleX="1"
+                    android:max="50"
+                    android:progress="35"
+                    app:trackColor="@color/white"
+                    app:indicatorColor="#34BA03"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:includeFontPadding="false"
+                    android:text="3.5"
+                    android:textColor="#717171"
+                    android:textSize="22dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_review_rating_3_layout_4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/item_review_rating_3_text_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HighLight3"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#424040"
+                    android:textStyle="normal"
+                    android:textSize="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/item_review_rating_3_text_4"
+                    android:text="0 ratings"
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="normal"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#717171"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/item_review_rating_3_layout_6"
+            android:layout_toEndOf="@+id/item_review_rating_3_layout_5"
+            >
+
+            <RelativeLayout
+                android:id="@+id/item_review_rating_3_layout_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/item_review_rating_3_layout_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true">
+
+                    <com.google.android.material.progressindicator.CircularProgressIndicator
+                        android:id="@+id/item_review_rating_3_highlight_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:indicatorSize="70dp"
+                        app:trackThickness="4dp"
+                        android:scaleY="1"
+                        android:scaleX="1"
+                        android:max="50"
+                        android:progress="30"
+                        app:trackColor="@color/white"
+                        app:indicatorColor="#34BA03"/>
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:includeFontPadding="false"
+                        android:text="3"
+                        android:textColor="#717171"
+                        android:textSize="22dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/item_review_rating_3_layout_8"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:id="@+id/item_review_rating_3_text_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="HighLight2"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="#424040"
+                        android:textStyle="normal"
+                        android:textSize="15dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/item_review_rating_3_text_5"
+                        android:text="0 ratings"
+                        android:layout_centerHorizontal="true"
+                        android:textStyle="normal"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#717171"/>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:id="@+id/item_search_view_item">
+
+    <ImageView
+        android:id="@+id/item_search_view_image_view"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/search"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/item_search_view_image_view"
+        android:background="@drawable/background_details_for_items"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/item_search_view_text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item name"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:textSize="19dp"
+            android:textStyle="normal"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/arrow_inward"
+            android:rotation="270"
+            android:layout_marginRight="15dp"/>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

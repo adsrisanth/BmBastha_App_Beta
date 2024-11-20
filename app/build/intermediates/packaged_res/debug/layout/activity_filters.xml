@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_version.filters_activity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/activity_filters_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentTop="true"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/activity_filters_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_arrow"
+                android:scaleY="1.2"
+                android:scaleX="1.2"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/activity_filters_img"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="Filters"
+                android:scaleX="1.4"
+                android:scaleY="1.4"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/activity_filters_text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="Clear Filters"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"/>
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/activity_filters_layout_1"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="#C6F4F4F4">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:padding="15dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:visibility="gone">
+
+
+                    <TextView
+                        android:id="@+id/activity_filters_text_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="45 products found"
+                        android:textColor="#424040"
+                        android:textStyle="bold"
+                        android:textSize="18sp"/>
+
+                </RelativeLayout>
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Filter"-->
+<!--                    android:textSize="20sp"-->
+<!--                    android:layout_alignParentRight="true"-->
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/activity_filters_layout_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:backgroundTint="@color/black"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    app:cardCornerRadius="5dp">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Filter"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"/>
+
+                </androidx.cardview.widget.CardView>
+
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_alignParentRight="true"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:background="#000000"-->
+<!--                    android:paddingLeft="10dp"-->
+<!--                    android:paddingRight="10dp">-->
+
+<!--                        <TextView-->
+<!--                           android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                             android:text="Filter"-->
+<!--                             android:textSize="20sp"-->
+<!--                            android:textColor="#FFFFFF"-->
+<!--                            android:textStyle="bold"/>-->
+<!--                    -->
+<!--                    -->
+<!--                </RelativeLayout>-->
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <ScrollView
+            android:id="@+id/activity_filters_layout_8"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E4E4E4"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/activity_filters_layout_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="30dp"
+                        android:scaleX="1.3"
+                        android:scaleY="1.3"
+                        android:text="Price"
+                        android:textColor="#5C5B5B"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/activity_filters_layout_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_below="@+id/activity_filters_layout_2"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="30dp"
+                        android:scaleX="1.3"
+                        android:scaleY="1.3"
+                        android:text="Deliver At"
+                        android:textColor="#5C5B5B"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/activity_filters_layout_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_below="@+id/activity_filters_layout_3"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="30dp"
+                        android:scaleX="1.3"
+                        android:scaleY="1.3"
+                        android:text="Discount"
+                        android:textColor="#5C5B5B"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/activity_filters_layout_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_below="@+id/activity_filters_layout_4"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="30dp"
+                        android:scaleX="1.3"
+                        android:scaleY="1.3"
+                        android:text="Rating"
+                        android:textSize="13sp"
+                        android:textColor="#5C5B5B"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/activity_filters_layout_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_below="@+id/activity_filters_layout_5"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="30dp"
+                        android:scaleX="1.3"
+                        android:scaleY="1.3"
+                        android:text="Brand"
+                        android:textSize="13sp"
+                        android:textColor="#5C5B5B"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/activity_filters_layout_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_below="@+id/activity_filters_layout_6"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="30dp"
+                        android:scaleX="1.3"
+                        android:scaleY="1.3"
+                        android:text="Catogers"
+                        android:textSize="13sp"
+                        android:textColor="#5C5B5B"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/activity_filters_layout_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="35sp"
+                    android:layout_below="@+id/activity_filters_layout_7"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="30dp"
+                        android:scaleX="1.3"
+                        android:scaleY="1.3"
+                        android:text="Organic"
+                        android:textSize="13sp"
+                        android:textColor="#5C5B5B"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/activity_filters_layout_8"
+            >
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/activity_filters_recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:listitem="@layout/item_common_filter_item"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

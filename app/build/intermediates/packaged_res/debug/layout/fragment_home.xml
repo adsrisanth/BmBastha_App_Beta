@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".user_version.home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:id="@+id/fragment_home_append_layout_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="13dp">
+
+                <RelativeLayout
+                    android:id="@+id/fragment_home_append_layout_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true">
+
+                    <ImageView
+                        android:id="@+id/fragment_home_append_img_1"
+                        android:layout_width="18dp"
+                        android:layout_height="19dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true" />
+
+                    <RelativeLayout
+
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toEndOf="@+id/fragment_home_append_img_1">
+
+                        <TextView
+                            android:id="@+id/fragment_home_append_text_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Delivery to"
+                            android:textColor="@color/black"
+                            android:textSize="8sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/fragment_home_append_text_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/fragment_home_append_text_1"
+                            android:text="5220000 Vijayawada"
+                            android:textColor="@color/black"
+                            android:textSize="8sp"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/fragment_home_append_layout_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toEndOf="@+id/fragment_home_append_layout_1"
+                    android:background="@drawable/backgound_google_btn">
+
+                    <ImageView
+                        android:id="@+id/fragment_home_append_img_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/search" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="7dp"
+                        android:layout_toEndOf="@+id/fragment_home_append_img_2"
+                        android:text="Search for Products,Brands..."
+                        android:textColor="#9A9A9A"
+                        android:textSize="13dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/mic"/>
+
+
+                </RelativeLayout>
+
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_toEndOf="@+id/fragment_home_append_layout_4">-->
+<!--                    -->
+<!--                    <ImageView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:src="@drawable/cart"/>-->
+<!--                    -->
+<!--                </RelativeLayout>-->
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fragment_home_append_layout_2">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fragment_home_layout_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="0dp"
+                    app:cardElevation="10dp">
+
+                    <com.denzcoskun.imageslider.ImageSlider
+                        android:id="@+id/fragment_home_Image_slider"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:background="@color/grey_font"
+                        app:iss_auto_cycle="true"
+                        app:iss_corner_radius="5"
+                        app:iss_delay="0"
+                        app:iss_error_image="@color/white"
+                        app:iss_period="2000"
+                        app:iss_placeholder="@color/white"
+                        >
+
+                    </com.denzcoskun.imageslider.ImageSlider>
+
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:id="@+id/fragment_home_append_layout_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/fragment_home_layout_4"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/fragment_home_recycler_branded_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:scrollbarSize="0dp"
+                        android:padding="10dp"
+                        tools:listitem="@layout/item_brand_logo"
+                        android:scrollbars="horizontal"
+                        />
+
+                </LinearLayout>
+
+                <!--                <GridView-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:numColumns="3"-->
+                <!--                    android:layout_below="@+id/fragment_home_append_layout_3"/>-->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/fragment_home_append_layout_3"
+                    android:layout_marginBottom="100dp">
+
+                    <include layout="@layout/item_fragment_home_page" />
+
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/fragment_home_progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#32808080"
+        android:visibility="gone"
+        >
+
+        <ProgressBar
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

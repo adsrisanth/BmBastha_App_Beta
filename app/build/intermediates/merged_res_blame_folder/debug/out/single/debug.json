@@ -1,0 +1,638 @@
+[
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_filter_new.png.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/filter_new.png"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_deleted_line.png.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/deleted_line.png"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_bottom_item_for_item_option.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/bottom_item_for_item_option.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_background_logout_btn.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/background_logout_btn.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_cash_on_delivery.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/cash_on_delivery.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_activity_test_payment.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/activity_test_payment.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_coupons.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_coupons.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_rice_append.png.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/rice_append.png"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_activity_show_all_items.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/activity_show_all_items.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_background_select_quenty.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/background_select_quenty.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_cart_at_activity_proceed_to_buy.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_cart_at_activity_proceed_to_buy.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_backgound_search.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/backgound_search.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_activity_sign_in.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_background_add_address_btn.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/background_add_address_btn.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_activity_notification_view.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/activity_notification_view.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_baseline_share_24.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/baseline_share_24.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_test.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_test.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_mic.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/mic.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_activity_profile_user_account.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/activity_profile_user_account.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_delect_address.png.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/delect_address.png"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_fragment_categories.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/fragment_categories.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_activity_show_all_item_part_2.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_activity_show_all_item_part_2.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_activity_item_view_list.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/activity_item_view_list.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_change_address_item.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_change_address_item.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_activity_sign_up.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_location.png.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/location.png"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_fragment_cart_fragment.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/fragment_cart_fragment.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_cart_part_2.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_cart_part_2.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_activity_coupons_user.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/activity_coupons_user.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_activity_order_details.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/activity_order_details.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_change_address.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_change_address.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_review_rating_1.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_review_rating_1.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_cart.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/cart.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_bottom_address.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_bottom_address.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-pngs-55:/drawable-ldpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_remove.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/remove.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_common_filter_item.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_common_filter_item.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_myorder_2.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_myorder_2.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_activity_privace_policy.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/activity_privace_policy.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_account.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/account.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_fragment_home_page_for_items.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_fragment_home_page_for_items.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_categorys.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/categorys.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_backgroung_login_btn.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/backgroung_login_btn.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_wishlist.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/wishlist.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_myorder.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_myorder.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_details_profile_user_account.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_details_profile_user_account.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_address_filter.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_address_filter.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_coupens.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/coupens.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_bottom_for_item_option.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_bottom_for_item_option.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_activity_forget_password.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/activity_forget_password.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_review.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/review.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_account_img.png.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/account_img.png"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_close.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/close.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_activity_search.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/activity_search.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_arrow_right.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/arrow_right.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_activity_user_main.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/activity_user_main.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_backgound_google_btn.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/backgound_google_btn.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_activity_add_new_address.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/activity_add_new_address.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-pngs-55:/drawable-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_card_payment.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/card_payment.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-pngs-55:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_brand_logo.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_brand_logo.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_back_arrow.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/back_arrow.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_arrow_right_grey.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/arrow_right_grey.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_fragment_notification_fragment.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/fragment_notification_fragment.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_review_rating_5_1.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_review_rating_5_1.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_filters.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/filters.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_add_new_address_1.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_add_new_address_1.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_background_address_item.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/background_address_item.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_add.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/add.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_shadow_effect.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/shadow_effect.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_star_grey.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/star_grey.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_activity_myorder.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/activity_myorder.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_login_xml_lcon.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/login_xml_lcon.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_img.png.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/img.png"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_cart.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_cart.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_coupoons.png.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/coupoons.png"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_review_rating_3.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_review_rating_3.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/menu_home_bottom_fragment.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/menu/home_bottom_fragment.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_home_img.png.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/home_img.png"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_notification.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/notification.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_activity_my_cart.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/activity_my_cart.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_top_rated_home_page.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_top_rated_home_page.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_stra.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/stra.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_account_page.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/account_page.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_activity_address_user.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/activity_address_user.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/xml_data_extraction_rules.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_edit_address.png.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/edit_address.png"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_search_view.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_search_view.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_activity_test_noti.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/activity_test_noti.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_privace_policy.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/privace_policy.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_back_arrow_white.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/back_arrow_white.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_activity_proceed_to_buy.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/activity_proceed_to_buy.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_cart_background.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/cart_background.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-pngs-55:/drawable-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_background_progress_bar.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/background_progress_bar.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-pngs-55:/drawable-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_activity_show_all_items.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_activity_show_all_items.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_activity_splash_screen.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_test.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/test.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_review_rating_4.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_review_rating_4.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_fragment_home.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_fragment_home.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_price.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_price.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_delect.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/delect.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_order.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/order.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_activity_test.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/activity_test.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_review_rating_5.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_review_rating_5.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_down_arrow.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/down_arrow.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-pngs-55:/drawable-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_arrow_inward.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/arrow_inward.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/xml_backup_rules.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_activity_review_rating_full.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/activity_review_rating_full.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_imgver.png.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/imgver.png"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_activity_place_order_page.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/activity_place_order_page.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_background_main.png.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/background_main.png"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_logo_app_two.png.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/logo_app_two.png"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_search.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/search.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_logo_app.jpg.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/logo_app.jpg"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_address_user.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_address_user.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_rice.png.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/rice.png"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_bottom_order_page_address_show.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/bottom_order_page_address_show.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_logo_img.png.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/logo_img.png"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_fragment_home_page.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_fragment_home_page.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_background_totalamountbtn.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/background_totalamountbtn.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_adress.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/adress.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_place_order_btn.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/place_order_btn.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_google_img.png.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/google_img.png"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_pack_size.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_pack_size.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_background_account_btn.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/background_account_btn.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_baseline_help_center_24.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/baseline_help_center_24.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_activity_item_view_list_about_products.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_activity_item_view_list_about_products.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_qnt_background.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/qnt_background.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_activity_filters.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/activity_filters.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_arrow_right_black.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/arrow_right_black.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_fragment_home.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_activity_main.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_background_details_for_items.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/background_details_for_items.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_home.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/home.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_account_bottom_fragment_part_2.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/account_bottom_fragment_part_2.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_item_review_rating_2.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/item_review_rating_2.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/layout_fragment_account_fragment.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/layout/fragment_account_fragment.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-pngs-55:/drawable-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_net_banking.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/net_banking.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_baseline_home_24.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/baseline_home_24.xml"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_emptycartimg.png.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/emptycartimg.png"
+    },
+    {
+        "merged": "com.boina.works.projects.biyyambastashoppingapp-merged_res-59:/drawable_baseline_list_24.xml.flat",
+        "source": "com.boina.works.projects.biyyambastashoppingapp-main-61:/drawable/baseline_list_24.xml"
+    }
+]
